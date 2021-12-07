@@ -4,9 +4,9 @@ clear all
 
 % 1.1. DEFINE GENERAL PARAMS (By User***)
 
-path_base     = 'E:\DynamicEEG-Park'; % path of the main folder 
-path_conn     = 'E:\DynamicEEG-Park\Results\conn-PLV\HC'; % path of connectivity (PLV) results folder to save in 
-path_state    = 'E:\DynamicEEG-Park\Results\state-ICA\HC'; % path of states (ICA) results folder to save in
+path_base     = 'E:\DynCogPD'; % path of the main folder 
+path_conn     = 'E:\DynCogPD\Results\conn-PLV\HC'; % path of connectivity (PLV) results folder to save in 
+path_state    = 'E:\DynCogPD\Results\state-ICA\HC'; % path of states (ICA) results folder to save in
 mri_template  = 'icbm'; % 'icbm' for ICBM152 (only this option is implemented in code)
 atlas         = 'destrieux'; % 'destrieux' for Destrieux148 atlas, format of BrainStorm (only this option is implemented in code)
 nROIs         = 148; % number of ROIs in destrieux atlas
