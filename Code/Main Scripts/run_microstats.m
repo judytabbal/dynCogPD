@@ -2,19 +2,19 @@
 
 clear all
 
-path_base     = 'E:\DynamicEEG-Park'; % path of the main folder 
+path_base     = 'E:\DynCogPD'; % path of the main folder 
 
 % HC
 n_controls    = 10; % number of controls HC
 NCs_HC        = 5; % number of ICA components for HC
-path_conn_HC  = 'E:\DynamicEEG-Park\Results\conn-PLV\HC'; % path of saved cmat connectivities results for each subject of control grp
-path_state_HC = 'E:\DynamicEEG-Park\Results\state-ICA\HC'; % path of saved ICA states results for each subject of control grp
+path_conn_HC  = 'E:\DynCogPD\Results\conn-PLV\HC'; % path of saved cmat connectivities results for each subject of control grp
+path_state_HC = 'E:\DynCogPD\Results\state-ICA\HC'; % path of saved ICA states results for each subject of control grp
 
 % PD
 n_parks       = 21; % number of patients PD
 NCs_PD        = 5; % number of ICA components for PD
-path_conn_PD  = 'E:\DynamicEEG-Park\Results\conn-PLV\PD'; % path of saved cmat connectivities results for each subject of park grp
-path_state_PD = 'E:\DynamicEEG-Park\Results\state-ICA\PD'; % path of saved ICA states results for each subject of park grp
+path_conn_PD  = 'E:\DynCogPD\Results\conn-PLV\PD'; % path of saved cmat connectivities results for each subject of park grp
+path_state_PD = 'E:\DynCogPD\Results\state-ICA\PD'; % path of saved ICA states results for each subject of park grp
 
 band_interval=[30 40]; % band of interest
 
