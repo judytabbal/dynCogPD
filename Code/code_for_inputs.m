@@ -2,7 +2,7 @@
 
 %% Basic Params to Manipulate appropriately: RUN THIS SECTION ONCE IN THE BEGINNING
 
-path_base = 'E:\DynamicEEG-Park'; %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+path_base = 'E:\DynCogPD'; %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 mri_template = 'icbm'; %'icbm' for ICBM152
 atlas = 'destrieux'; %'destrieux' for Destrieux148 atlas (same format as BrainStorm)
 ROIs=148; %148 for destrieux
