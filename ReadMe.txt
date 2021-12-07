@@ -21,7 +21,6 @@ This project is structured into the following folders:
 
 - Inputs  : includes necessary input variables (to be used in the code, automatically loaded in the code)
 - Results : includes two subfolders : conn-PLV (to save connectivity results) and state-ICA (to save ICA results), each divided into HC (control group) and PD (patient group)
-- Toolbox : includes fieldTrip and OpenMEEG toolbox (to be used in the code, automatically loaded in the code)
 - Code    : includes two subfolders : Function folder (that contains necessary functions used at each step) and Main Scripts folder (that contains the two main scripts to run called : 'run_pipeline.m' and 'run_microstats.m')
 
 
@@ -30,15 +29,15 @@ This project is structured into the following folders:
 
 *** III. Steps.
 
-1- Download and unzip the project folder 'DynamicEEG-Park' (preserve folders and subfolders structure)
+1- Download and unzip the project folder 'DynCogPD' (preserve folders and subfolders structure)
 
 2- Do NOT manually add folders to matlab path (to prevent complications between some matlab and toolbox functions). Necessary inputs and codes to be used are automatically added to Matlab path through code.
 
-3- Download Toolbox folder from here, unzip it, and add it to the path of the project: dynCogPD/Toolbox
+3- Download Toolbox folder from here, unzip it, and add it to the path of the project: dynCogPD\Toolbox
 
-4- Download the realigned MRI structure from here and add it to the path of the project inputs: dynCogPD/Inputs
+4- Download the realigned MRI structure and the original NII file of icbm MRI from here and add it to the path of the project inputs: dynCogPD\Inputs\icbm
 
-5- Open 'run_pipeline.m' script in DynamicEEG-Park\Code\Main Scripts folder.
+5- Open 'run_pipeline.m' script in DynCogPD\Code\Main Scripts folder.
 
 6- Run the previous script (run_pipeline.m) for each group seperately and progressively (controls then patients for example).
 	It includes 6 sections, to run Section by Section:
@@ -61,7 +60,7 @@ This project is structured into the following folders:
 	Section 6: (MANIPULATE appropriately Section 6.1. for null distribution configuration)
                    Build null distribution based on sign flip. + Plot option
 
-7- Open 'run_microstats.m' script in DynamicEEG-Park\Code\Main Scripts folder.
+7- Open 'run_microstats.m' script in DynCogPD\Code\Main Scripts folder.
 
 8- Run the previous script (run_microstats.m) once to extract microstates parameters relative to both groups.
 	It inludes 5 sections, to run Section by Section:
