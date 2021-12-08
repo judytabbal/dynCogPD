@@ -6,11 +6,11 @@ In addition, an approach based on micro-state metrics is implemented in order to
 
 Using this code, you will be able to:
 
--- Compute Sources (weighted minimum norm estimate: wMNE)
--- Compute dynamic Functional Connectivity dFC (Phase-Locking Value: PLV with sliding window)
--- Compute dynamic states (Independent Component Analysis: ICA-JADE)
--- Compute statistics to extract significant 'group-level' states
--- Compute microstates parameters (backfitting code) to extract significant differences between two groups (i.e., Controls vs Patients)
+- Compute Sources (weighted minimum norm estimate: wMNE)\
+- Compute dynamic Functional Connectivity dFC (Phase-Locking Value: PLV with sliding window)\
+- Compute dynamic states (Independent Component Analysis: ICA-JADE)\
+- Compute statistics to extract significant 'group-level' states\
+- Compute microstates parameters (backfitting code) to extract significant differences between two groups (i.e., Controls vs Patients)\
 
 
 ## Structure
