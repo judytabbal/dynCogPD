@@ -6,11 +6,11 @@ In addition, an approach based on micro-state metrics is implemented in order to
 
 Using this code, you will be able to:
 
-- Compute Sources (weighted minimum norm estimate: wMNE)\
-- Compute dynamic Functional Connectivity dFC (Phase-Locking Value: PLV with sliding window)\
-- Compute dynamic states (Independent Component Analysis: ICA-JADE)\
-- Compute statistics to extract significant 'group-level' states\
-- Compute microstates parameters (backfitting code) to extract significant differences between two groups (i.e., Controls vs Patients)\
+- Compute Sources (weighted minimum norm estimate: wMNE)
+- Compute dynamic Functional Connectivity dFC (Phase-Locking Value: PLV with sliding window)
+- Compute dynamic states (Independent Component Analysis: ICA-JADE)
+- Compute statistics to extract significant 'group-level' states
+- Compute microstates parameters (backfitting code) to extract significant differences between two groups (i.e., Controls vs Patients)
 
 
 ## Structure
@@ -90,8 +90,8 @@ Note A. The user can refer to the script called code_for_inputs.m to see the com
 - scout_mni, scout_scs (position/orientation of destrieux centroids in mni/scs coordinates)
 - subgrid (source grid format used)
 - elec_BS_mm (EEG electrodes fieldTrip format)
-- indata.mat and nb_trials_persub.mat (input preprocessed EEG trials to be segmented and converted into fieldTrip data structure in 'run_pipeline.m' script.\
+- indata.mat and nb_trials_persub.mat (input preprocessed EEG trials to be segmented and converted into fieldTrip data structure in 'run_pipeline.m' script.
 
-Note B. indata.mat and nb_trials_persub.mat saved variables serve only as examples to understand correct structure fields and dimensions. However, the values are random and do not refer to the real EEG data values treated. The user should create his own.\
+Note B. indata.mat and nb_trials_persub.mat saved variables serve only as examples to understand correct structure fields and dimensions. However, the values are random and do not refer to the real EEG data values treated. The user should create his own.
 
 Note C. The user can visualize results of brain networks states with temporal evolution with/without null distribution: uncomment the code lines at Sections 6.4 / 5.4 of run_pipeline.m.
