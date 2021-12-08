@@ -28,9 +28,9 @@ This project is structured into the following folders:
 
 2- Do NOT manually add folders to matlab path (to prevent complications between some matlab and toolbox functions). Necessary inputs and codes to be used are automatically added to Matlab path through code.
 
-3- Download Toolbox folder from [here](), unzip it, and add it to the path of the project: dynCogPD\Toolbox
+3- Download Toolbox folder from [here](https://github.com/judytabbal/dynCogPD/releases/tag/v1), unzip it, and add it to the path of the project: dynCogPD\Toolbox
 
-4- Download the realigned MRI structure and the original NII file of icbm MRI from [here]() and add it to the path of the project inputs: dynCogPD\Inputs\icbm
+4- Download the realigned MRI structure and the original NII file of icbm MRI from [here](https://github.com/judytabbal/dynCogPD/releases/tag/v1) and add it to the path of the project inputs: dynCogPD\Inputs\icbm
 
 5- Open 'run_pipeline.m' script in DynCogPD\Code\Main Scripts folder.
 
