@@ -86,12 +86,12 @@ This project is structured into the following folders:
 ## Notes
 
 Note A. The user can refer to the script called code_for_inputs.m to see the computation of some saved variables in Inputs Folder:
-	1. mri_realign (realigned template MRI ICBM)
-	2. scout_mni, scout_scs (position/orientation of destrieux centroids in mni/scs coordinates)
-	3. subgrid (source grid format used)
-	4. elec_BS_mm (EEG electrodes fieldTrip format)
-	5. indata.mat and nb_trials_persub.mat (input preprocessed EEG trials to be segmented and converted into fieldTrip data structure in 'run_pipeline.m' script.
+- mri_realign (realigned template MRI ICBM)
+- scout_mni, scout_scs (position/orientation of destrieux centroids in mni/scs coordinates)
+- subgrid (source grid format used)
+- elec_BS_mm (EEG electrodes fieldTrip format)
+- indata.mat and nb_trials_persub.mat (input preprocessed EEG trials to be segmented and converted into fieldTrip data structure in 'run_pipeline.m' script.\
 
-Note B. indata.mat and nb_trials_persub.mat saved variables serve only as examples to understand correct structure fields and dimensions. However, the values are random and do not refer to the real EEG data values treated. The user should create his own.
+Note B. indata.mat and nb_trials_persub.mat saved variables serve only as examples to understand correct structure fields and dimensions. However, the values are random and do not refer to the real EEG data values treated. The user should create his own.\
 
 Note C. The user can visualize results of brain networks states with temporal evolution with/without null distribution: uncomment the code lines at Sections 6.4 / 5.4 of run_pipeline.m.
