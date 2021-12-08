@@ -1,6 +1,7 @@
-*** I. Objective.
+# dynCogPD
 
-The main objective of this project is to investigate the time-varying modulations in dynamic brain networks states through 'dynamic-source-connectivity' approach combined with a 'dimensionality reduction method' (Independent Component Analysis: ICA) using HR-EEG signals.
+## Description
+The main objective of this project is to investigate the time-varying modulations in dynamic brain networks states through 'dynamic-source-connectivity' approach combined with a 'dimensionality reduction method' (Independent Component Analysis: ICA) using HD-EEG signals.
 In addition, an approach based on micro-state metrics is implemented in order to quantify differences between two groups of subjects (i.e., controls vs patients).
 
 Using this code, you will be able to:
@@ -12,10 +13,7 @@ Using this code, you will be able to:
 -- Compute microstates parameters (backfitting code) to extract significant differences between two groups (i.e., Controls vs Patients)
 
 
-
-
-
-*** II. Structure.
+## Structure
 
 This project is structured into the following folders:
 
@@ -24,18 +22,15 @@ This project is structured into the following folders:
 - Code    : includes two subfolders : Function folder (that contains necessary functions used at each step) and Main Scripts folder (that contains the two main scripts to run called : 'run_pipeline.m' and 'run_microstats.m')
 
 
-
-
-
-*** III. Steps.
+## TODO
 
 1- Download and unzip the project folder 'DynCogPD' (preserve folders and subfolders structure)
 
 2- Do NOT manually add folders to matlab path (to prevent complications between some matlab and toolbox functions). Necessary inputs and codes to be used are automatically added to Matlab path through code.
 
-3- Download Toolbox folder from here, unzip it, and add it to the path of the project: dynCogPD\Toolbox
+3- Download Toolbox folder from [here](), unzip it, and add it to the path of the project: dynCogPD\Toolbox
 
-4- Download the realigned MRI structure and the original NII file of icbm MRI from here and add it to the path of the project inputs: dynCogPD\Inputs\icbm
+4- Download the realigned MRI structure and the original NII file of icbm MRI from [here]() and add it to the path of the project inputs: dynCogPD\Inputs\icbm
 
 5- Open 'run_pipeline.m' script in DynCogPD\Code\Main Scripts folder.
 
@@ -88,10 +83,7 @@ This project is structured into the following folders:
 		(5) Transition between states (symmetric 'TRsym0' and non-symmetric 'TR' versions)
 
 
-
-
-
-*** IV. Notes
+## Notes
 
 Note A. The user can refer to the script called code_for_inputs.m to see the computation of some saved variables in Inputs Folder:
 	1. mri_realign (realigned template MRI ICBM)
