@@ -11,6 +11,7 @@ Using this code, you will be able to:
 - Compute dynamic states (Independent Component Analysis: ICA-JADE)
 - Compute statistics to extract significant 'group-level' states
 - Compute microstates parameters (backfitting code) to extract significant differences between two groups (i.e., Controls vs Patients)
+- Perform the behavioral analysis
 
 
 ## Structure
